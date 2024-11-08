@@ -1,5 +1,3 @@
-# Название сценария
+# Поставка данных из очереди Yandex Data Streams в YDB с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://yandex.cloud/ru/docs/data-transfer) вы можете поставлять данные из очереди [Yandex Data Streams](https://yandex.cloud/ru/docs/data-streams) в базу данных [Yandex Managed Service for YDB](https://yandex.cloud/ru/docs/ydb). Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/data-transfer/tutorials/yds-to-ydb), необходимый для настройки конфигурационный файл [yds-to-ydb.tf](https://github.com/yandex-cloud-examples/yc-data-transfer-from-yds-to-ydb/blob/main/yds-to-ydb.tf) расположен в этом репозитории.
